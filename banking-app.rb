@@ -25,7 +25,7 @@ if password == "0000"
             puts "Thanks for choosing our bank. We put customers first!"
             abort
         else
-            puts "Invalid selection!"
+            puts "Invalid selection! Please try again."
         end
     end
 else
