@@ -1,3 +1,4 @@
+# Variables
 balance = 0.00
 
 puts "Welcome to the online banking service!. Please enter your name."
@@ -7,7 +8,7 @@ puts "Hi #{name}! Please enter your password below:"
 password = gets.chomp
 if password == "0000"
     loop do
-    puts "What would you like do do? (options: balance, withdraw, deposit, exit)"
+    puts "What would you like to do? (options: balance, withdraw, deposit, exit)"
         optionChose = gets.chomp
         if optionChose == "balance"
             puts "Your balance is $#{balance}"
