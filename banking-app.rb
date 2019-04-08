@@ -11,6 +11,7 @@ if password == "0000"
     loop do
     puts "What would you like to do? (options: balance, withdraw, deposit, history, exit)"
         optionChose = gets.chomp.downcase
+        puts "\e[2J\e[f"
         if optionChose == "balance"
             puts "Your balance is $#{balance}"
             array << "Checked balance"
